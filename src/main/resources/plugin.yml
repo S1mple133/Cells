@@ -1,0 +1,8 @@
+name: Cells
+version: 1.0
+main: me.s1mple.Cells.Cells
+commands:
+  local:
+    description: Only display local chat.
+  global:
+    description: Display global chat.

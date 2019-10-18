@@ -1,0 +1,10 @@
+#Tiers
+#   <id>:
+#     Name: <name>
+#     Block: <BlockName, no id>
+
+Tiers:
+  0:
+    Name: "Tier 1"
+    Block: DIAMOND_BLOCK
+

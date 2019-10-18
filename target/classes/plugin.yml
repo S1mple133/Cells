@@ -1,0 +1,8 @@
+name: GlobalChat
+version: 1.0
+main: me.s1mple.GlobalChat.GlobalChat
+commands:
+  local:
+    description: Only display local chat.
+  global:
+    description: Display global chat.
