@@ -1,5 +1,7 @@
 package me.s1mple.Cells.data;
 
+import me.s1mple.Cells.Cells;
+
 public enum Security {
     LOW,
     MEDIUM,
@@ -23,10 +25,21 @@ public enum Security {
         }
     }
 
-    public String getSecurityName(Security security) {
+    /**
+     * Returns name of security type
+     * @param security
+     * @return
+     */
+    public static String getSecurityName(Security security) {
         switch (security) {
             case LOW:
-                return
+                return Cells.getPlugin().getConfig().getString("Security.LOW");
+            case MEDIUM:
+                return Cells.getPlugin().getConfig().getString("Security.MEDIUM");
+            case HIGH:
+                return Cells.getPlugin().getConfig().getString("Security.HIGH");
+            default:
+                return "";
         }
     }
 }

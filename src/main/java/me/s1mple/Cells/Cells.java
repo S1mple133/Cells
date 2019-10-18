@@ -1,5 +1,6 @@
 package me.s1mple.Cells;
 
+import me.s1mple.Cells.data.Cell;
 import me.s1mple.Cells.listeners.PlayerListener;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -17,7 +18,7 @@ public class Cells extends JavaPlugin {
     public void onEnable() {
         plugin = this;
         plugin.saveDefaultConfig();
-
+        Cell.doCheckExpire();
 
         getServer().getPluginManager().registerEvents(new PlayerListener(), this);
         getLogger().info("Loaded");

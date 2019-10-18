@@ -8,3 +8,12 @@ Tiers:
     Name: "Tier 1"
     Block: DIAMOND_BLOCK
 
+# Security names
+Security:
+  LOW: "&fLow"
+  MEDIUM: "&dMEDIUM"
+  HIGH: "&fHIGH"
+
+Menu:
+  CellItem: black_stained_glass_pane
+

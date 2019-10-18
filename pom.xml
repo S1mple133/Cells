@@ -47,7 +47,7 @@
             <version>1.12.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>ess</artifactId>
             <version>LATEST</version>
@@ -60,6 +60,6 @@
             <version>LATEST</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/EssentialsXGroupManager-2.0.1.jar</systemPath>
-        </dependency>
+        </dependency>!-->
     </dependencies>
 </project>
