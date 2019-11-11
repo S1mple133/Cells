@@ -2,7 +2,9 @@
 #   <id>:
 #     Name: <name>
 #     Block: <BlockName, no id>
+#TierCount: <Amount of tiers>
 
+TierCount: 1
 Tiers:
   0:
     Name: "Tier 1"
